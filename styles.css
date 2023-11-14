@@ -1,0 +1,58 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(74, 151, 151, 0.48);
+    color: #844a4a;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #daf4d4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50px; /* Added border radius for rounded corners */
+    border: 10px solid rgba(27, 163, 22, 0.19)/* Added border for container */
+}
+
+header {
+    background-color: #2c3e505a;
+    color: #31b5b5;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 100px; /* Added border radius for rounded corners */
+    border: 10px solid rgba(18, 20, 53, 0.589); /* Added border for header */
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0 0;
+}
+
+.about, .projects, .contact {
+    margin: 40px 0;
+    border-bottom: 1px solid #ddd; /* Added border between sections */
+    padding-bottom: 50px; /* Added padding to separate content from border */
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-radius: 80px; /* Added border radius for rounded corners */
+    border: 100px solid #34495e; /* Added border for footer */
+}
